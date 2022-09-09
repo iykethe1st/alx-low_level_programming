@@ -1,13 +1,11 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-
 /**
  * main - Entry Point
  *
  * Return: 0
  */
-
 int main(void)
 {
 	int n, last_digit;
