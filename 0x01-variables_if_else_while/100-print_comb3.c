@@ -16,32 +16,25 @@
 
 int main(void)
 {
-    int a, b, c;
-    
-    
+	int a, b, c;
 
-    for(a = 0; a < 100; a++)
-    {
-	b = a % 10;
-	c = a / 10;
+	for(a = 0; a < 100; a++)
+	{
+		b = a % 10;
+		c = a / 10;
 
-	if(c < b)
-	{   
-	    putchar(c + '0');
-	    putchar(b + '0');
-	 
+		if(c < b)
+		{
+			putchar(c + '0');
+			putchar(b + '0');
 
-	    if(a != 89)
-	    {
-	        putchar(',');
-		putchar(' ');
-	    }   
-	    	    
+			if(a != 89)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+		}
 	}
-	
-    }
-    putchar('\n');
-    return (0);
-
-
+	putchar('\n');
+	return (0);
 }
