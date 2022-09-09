@@ -13,7 +13,6 @@
  * 
  * Return: 0
  */
-
 int main(void)
 {
 	int a, b, c;
@@ -22,7 +21,7 @@ int main(void)
 	{
 		b = a % 10;
 		c = a / 10;
-		if(c < b)
+		if (c < b)
 		{
 			putchar(c + '0');
 			putchar(b + '0');
