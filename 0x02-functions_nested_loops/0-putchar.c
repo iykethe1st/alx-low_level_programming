@@ -1,9 +1,9 @@
-#include <stdlib.h>
 #include "main.h"
 /**
- * _putchar - prints the character '_putchar' to stdout
  *
  * main - Entry Point
+ * 
+ * Description: You are not allowed to include standard libraries.
  *
  * Return: on success 1
  *
