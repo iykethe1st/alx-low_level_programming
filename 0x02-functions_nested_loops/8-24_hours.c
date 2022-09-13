@@ -34,7 +34,7 @@ void jack_bauer(void)
 			b++;
 		}
 		if (b > 9)
-		{	
+		{
 			b = 0;
 			a++;
 		}
