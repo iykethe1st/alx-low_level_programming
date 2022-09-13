@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * main - Entry Point
  * 
  * Description: You are not allowed to include standard libraries.
@@ -22,6 +21,5 @@ int main(void)
 		i++;
 	}
 	_putchar('\n');
-
 	return (0);
 }
