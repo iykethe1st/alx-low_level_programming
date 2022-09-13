@@ -4,7 +4,7 @@
 /**
  * _islower - checks if an alphabet is lower
  *
- * c - parameter to be passed in
+ * @c: int type letter
  *
  * Return: 1 if c is lowercase, otherwise 0
  *
