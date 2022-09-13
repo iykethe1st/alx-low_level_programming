@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry Point
- * 
+ *
  * Description: You are not allowed to include standard libraries.
  *
  * Return: on success 1
