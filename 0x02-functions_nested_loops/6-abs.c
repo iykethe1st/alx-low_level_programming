@@ -4,6 +4,8 @@
 /**
  * _abs - prints the absoluve value of a number
  *
+ * @n: number to be checked
+ *
  * Return: n;
  *
  */
