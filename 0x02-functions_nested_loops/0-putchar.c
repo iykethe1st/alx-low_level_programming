@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "headers.h"
+#include "main.h"
 /**
  * _putchar - prints the character '_putchar' to stdout
  *
