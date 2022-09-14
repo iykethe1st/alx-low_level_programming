@@ -9,36 +9,40 @@
 
 void times_table(void)
 {
-	int row;   /* Row */
-	int column; /* Column */
-	int product; /* Product - computed value */
+	int x = 0; /* factor */
+	int y; /* count  */
+	int z; /* computed value */
 
-	for (row = 0; row < 10; row++)
+	while (x < 10)
 	{
-		for (column = 0; column < 10; column++)
+		y = 0;
+		while (y < 10)
 		{
-			product = row * column;
+			z = x * y;
 
-			if (product > 9)
+			if (z > 9)
 			{
-				_putchar((product / 10) + '0');
-				_putchar((product % 10) + '0');
+				_putchar(z / 10 + '0');
+				_putchar(z % 10 + '0');
 			}
-			else if (product < 10)
+			else if (y != 0)
 			{
 				_putchar(' ');
-				_putchar(product + '0');
+				_putchar(z + '0');
 			}
-			else 
+			else
 			{
-				_putchar(product + '0');
+				_putchar(z + '0');
 			}
-			if (column != 9)
+
+			if (y != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
+			y++;
 		}
 		_putchar('\n');
+		x++;
 	}
 }
