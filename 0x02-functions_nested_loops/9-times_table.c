@@ -13,7 +13,7 @@ void times_table(void)
 	int column; /* Column */
 	int product; /* Product - computed value */
 
-	for (row = 0; row < 10; row ++)
+	for (row = 0; row < 10; row++)
 	{
 		for (column = 0; column < 10; column++)
 		{

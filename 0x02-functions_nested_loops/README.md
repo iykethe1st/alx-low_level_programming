@@ -43,4 +43,7 @@ Task 8: function that prints every minute of the day of Jack Bauer, starting fro
 Prototype: void jack_bauer(void);
 
 
+Task 9: function that prints the 9 times table, starting with 0.
+Prototype: void times_table(void);
+
 
