@@ -12,4 +12,7 @@ Returns 0 otherwise
 FYI: The standard library provides a similar function: isdigit. Run man isdigit to learn more.
 
 
+Task 2: function that multiplies two integers
+
+
 
