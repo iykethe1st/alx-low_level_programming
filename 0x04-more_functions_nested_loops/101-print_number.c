@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 
 /**
  * print_number - Function that prints an integer.
