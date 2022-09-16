@@ -5,6 +5,7 @@
  * print_number - Function that prints an integer.
  * @n: int type number
  * Description: Can only use _putchar to print.
+ * Return: void
  */
 void print_number(int n)
 {
