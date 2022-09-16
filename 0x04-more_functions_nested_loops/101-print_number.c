@@ -11,7 +11,7 @@ void print_number(int n)
 {
 	int x0, x1, x2, x3, x4, x5, x6, x7, x8, x9;
 	int y0, y1, y2, y3, y4, y5, y6, y7, y8;
-	
+
 	x0 = n / 1000000000;
 	y0 = x0;
 	x1 = (n / 100000000) % 10;
