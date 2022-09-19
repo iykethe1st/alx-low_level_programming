@@ -6,5 +6,9 @@ Task 1: unction that swaps the values of two integers.
 Prototype: void swap_int(int *a, int *b);
 
 
+Task 2: function that returns the length of a string.
+Prototype: int _strlen(char *s);
+
+
 
 
