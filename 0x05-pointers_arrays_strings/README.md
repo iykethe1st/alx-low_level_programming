@@ -9,6 +9,8 @@ Prototype: void swap_int(int *a, int *b);
 Task 2: function that returns the length of a string.
 Prototype: int _strlen(char *s);
 
+Task 3: function that prints a string, followed by a new line, to stdout.
+Prototype: void _puts(char *str);
 
 
 
