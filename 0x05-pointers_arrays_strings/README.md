@@ -2,5 +2,9 @@ Task 0: function that takes a pointer to an int as parameter and updates the val
 Prototype: void reset_to_98(int *n);
 
 
+Task 1: unction that swaps the values of two integers.
+Prototype: void swap_int(int *a, int *b);
+
+
 
 
