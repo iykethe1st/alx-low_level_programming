@@ -5,7 +5,7 @@
  *
  * @s: string to reverse
  *
- * Return: Voin
+ * Return: Void
  */
 
 void rev_string(char *s)
@@ -13,14 +13,14 @@ void rev_string(char *s)
 	char temp;
 
 	int i;
-	int l;	
+	int l;
 	int c;
 
 	for (i = 0; s[i] != '\0'; i++)
 		;
-	
+
 	l = i;
-	
+
 	for (c = 0; c < l / 2; c++)
 	{
 		temp = s[c];
