@@ -7,6 +7,9 @@
  *
  * @dest: pointer to copy string to
  *
+ * Description: Copy the string pointed to by pointer `src`
+ * to the buffer pointed to by `dest`
+ *
  * return: Pointer to dest
  */
 
