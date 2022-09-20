@@ -32,4 +32,12 @@ The function should print the second half of the string
 If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
 
+Task 8: function that prints n elements of an array of integers, followed by a new line.
+Prototype: void print_array(int *a, int n);
+
+
+Task 9: function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+Return value: the pointer to dest
+
+
 
