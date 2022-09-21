@@ -10,20 +10,18 @@
 
 char *leet(char *s)
 {
+	int arr1[11] = {'a', 'A', 'e', 'E', 'o', 'O', 't', 'T', 'l', 'L'};
+	int arr2[11] = {52, 52, 51, 51, 48, 48, 55, 55, 49, 49};
 	int i;
+	int j;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		while (s[i] == 65 || s[i] == 97)
-			s[i] = 52;
-		while (s[i] == 69 || s[i] == 101)
-			s[i] = 51;
-		while (s[i] == 79 || s[i] == 111)
-			s[i] = 48;
-		while (s[i] == 84 || s[i] == 116)
-			s[i] = 55;
-		while (s[i] == 76 || s[i] == 108)
-			s[i] = 49;
+		for (j = 0; arr1[j] != '\0'; j++)
+		{
+			if (s[i] == arr1[j])
+				s[i] = arr2[j];
+		}
 	}
 	return (s);
 }
