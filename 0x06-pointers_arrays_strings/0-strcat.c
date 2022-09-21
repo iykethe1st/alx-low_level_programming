@@ -10,7 +10,7 @@
  * Return: Concatenated string
  */
 
-char *_strcat(char *src, char *dest)
+char *_strcat(char *dest, char *src)
 {
 	int i;
 	int j;
