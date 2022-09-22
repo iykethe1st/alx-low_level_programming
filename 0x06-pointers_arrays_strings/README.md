@@ -76,4 +76,29 @@ Task 10: Add one line to this code, so that the program prints a[2] = 98, follow
 
 
 
+Task 11: function that adds two numbers.
+Prototype: char *infinite_add(char *n1, char *n2, char *r, int size_r);
+Where n1 and n2 are the two numbers
+r is the buffer that the function will use to store the result
+size_r is the buffer size
+The function returns a pointer to the result
+You can assume that you will always get positive numbers, or 0
+You can assume that there will be only digits in the strings n1 and n2
+n1 and n2 will never be empty
+If the result can not be stored in r the function must return 0
+
+
+Task 12: function that prints a buffer.
+Prototype: void print_buffer(char *b, int size);
+The function must print the content of size bytes of the buffer pointed by b
+The output should print 10 bytes per line
+Each line starts with the position of the first byte of the line in hexadecimal (8 chars), starting with 0
+Each line shows the hexadecimal content (2 chars) of the buffer, 2 bytes at a time, separated by a space
+Each line shows the content of the buffer. If the byte is a printable character, print the letter, if not, print .
+Each line ends with a new line \n
+If size is 0 or less, the output should be a new line only \n
+You are allowed to use the standard library
+
+
+
 
