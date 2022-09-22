@@ -72,3 +72,8 @@ You are not allowed to use arrays or pointers
 You are not allowed to hard-code special values
 
 
+Task 10: Add one line to this code, so that the program prints a[2] = 98, followed by a new line.
+
+
+
+
