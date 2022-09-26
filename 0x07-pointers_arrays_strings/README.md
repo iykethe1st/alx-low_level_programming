@@ -16,5 +16,10 @@ Prototype: char *_strchr(char *s, char c);
 Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
 
 
+Task 3: function that gets the length of a prefix substring.
+Prototype: unsigned int _strspn(char *s, char *accept);
+Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+
+
 
 
