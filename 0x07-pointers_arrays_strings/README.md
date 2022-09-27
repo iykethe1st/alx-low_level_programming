@@ -38,7 +38,8 @@ Returns a pointer to the beginning of the located substring, or NULL if the subs
 Task 6: function that prints the chessboard.
 
 
-
+Task 7: unction that prints the sum of the two diagonals of a square matrix of integers.
+Prototype: void print_diagsums(int *a, int size)
 
 
 
