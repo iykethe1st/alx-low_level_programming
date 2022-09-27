@@ -43,5 +43,8 @@ Prototype: void print_diagsums(int *a, int size)
 
 
 
-
+Task 8 - function that sets the value of a pointer to a char.
  
+
+
+
