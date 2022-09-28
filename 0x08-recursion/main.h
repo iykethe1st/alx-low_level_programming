@@ -8,6 +8,11 @@ int _pow_recursion(int x, int y);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int helperf(int c, int i);
+int is_prime_number(int n);
+int helperf2(int n, int d);
+int _sqrt(int x, int i);
+
+
 
 
 #define MAIN_H
