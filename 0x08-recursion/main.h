@@ -12,9 +12,8 @@ int is_prime_number(int n);
 int helperf2(int n, int d);
 int _sqrt(int x, int i);
 int is_palindrome(char *s);
-int compares(char *s, int l);
+int comparator(char *s, int n1, int n2);
 int wildcmp(char *s1, char *s2);
-int findsrc(char *s, char c, int i, int p);
 
 
 
