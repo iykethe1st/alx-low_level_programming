@@ -11,8 +11,8 @@ int helperf(int c, int i);
 int is_prime_number(int n);
 int helperf2(int n, int d);
 int _sqrt(int x, int i);
-
-
+int is_palindrome(char *s);
+int compares(char *s, int num)
 
 
 #define MAIN_H
