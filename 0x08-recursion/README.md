@@ -16,4 +16,33 @@ Factorial of 0 is 1
 
 
 
-Task 4: 
+Task 4: function that returns the value of x raised to the power of y.
+Prototype: int _pow_recursion(int x, int y);
+If y is lower than 0, the function should return -1 
+
+
+
+
+Task 5: function that returns the natural square root of a number.
+Prototype: int _sqrt_recursion(int n);
+If n does not have a natural square root, the function should return -1
+
+
+
+Task 6: function that returns 1 if the input integer is a prime number, otherwise return 0.
+Prototype: int is_prime_number(int n);
+
+
+
+Task 7: unction that returns 1 if a string is a palindrome and 0 if not.
+Prototype: int is_palindrome(char *s);
+An empty string is a palindrome
+
+
+
+
+Task 8: function that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0.
+Prototype: int wildcmp(char *s1, char *s2);
+s2 can contain the special character *.
+The special char * can replace any string (including an empty string)
+
