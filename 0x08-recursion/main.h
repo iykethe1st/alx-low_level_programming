@@ -12,7 +12,10 @@ int is_prime_number(int n);
 int helperf2(int n, int d);
 int _sqrt(int x, int i);
 int is_palindrome(char *s);
-int compares(char *s, int num)
+int compares(char *s, int l);
+int wildcmp(char *s1, char *s2);
+int findsrc(char *s, char c, int i, int p);
+
 
 
 #define MAIN_H
