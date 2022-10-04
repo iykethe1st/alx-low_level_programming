@@ -25,7 +25,8 @@ int wrdcnt(char *s)
 	return (n);
 }
 
-/** strtow - splits a string into words
+/**
+ * strtow - splits a string into words
  *
  * @str: string to be split
  *
