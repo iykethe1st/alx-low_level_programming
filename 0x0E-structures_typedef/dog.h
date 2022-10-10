@@ -11,6 +11,10 @@
  * @owner: owner of dog
  */
 
+/**
+ * dog_t - new type for struct dog
+ */
+typedef struct dog dog_t;
 
 struct dog
 {
