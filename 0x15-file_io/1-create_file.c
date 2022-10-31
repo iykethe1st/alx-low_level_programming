@@ -12,25 +12,30 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int fd, rstatus, i;
+	int fd;
+	int nletters;
+	int rwr;
 
-	if (filename == NULL)
+	if (!filename)
 		return (-1);
 
-	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
+	fd = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
 
 	if (fd == -1)
 		return (-1);
 
-	if (text_content)
-	{
+	if (!text_content)
+		text_content = "";
 
-		for (i = 0; text_content[i] != '\0'; i++)
-			;
-		rstatus = write(fd, text_content, i);
-		if (rstatus == -1)
-			return (-1);
-	}
+	for (nletters = 0; text_content[nletters]; nletters++)
+		;
+
+	rwr = write(fd, text_content, nletters);
+
+	if (rwr == -1)
+		return (-1);
+
 	close(fd);
-	return (-1);
+
+	return (1);
 }
